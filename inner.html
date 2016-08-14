@@ -7,8 +7,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
+    <div class="container">
+        <header>
+
             <nav class="top-menu">
                 <ul>
                     <li><a href="#">Информация</a>
@@ -23,62 +24,65 @@
             </nav>
             <a href="#"><img class="logo" src="http://placehold.it/140x70" alt="logo">
             </a>
-        </div>
-    </header>
-    <main class="container">
-        <div class="filters">
-            <div class="list">
-                <span>Инфраструктура</span>
-                <input type="checkbox" id="check1" checked>
-                <label for="check1">Бассейн</label>
-                <input type="checkbox" id="check2">
-                <label for="check2">Парковка</label>
-                <input type="checkbox" id="check3">
-                <label for="check3">wi-fi</label>
-            </div>
-            <div class="list">
-                <span>Тип жилья</span>
-                <input type="checkbox" id="check4" checked>
-                <label for="check1">Гостиница</label>
-                <input type="checkbox" id="check5" checked>
-                <label for="check2">Мотель</label>
-                <input type="checkbox" id="check6" checked>
-                <label for="check3">Апартаменты</label>
-            </div>
-            <div class="price-filter">
-                <span>Стоимость в сутки (Р):</span>
-                <div class="price-filter-range">
-                    <div class="price-filter-from">
-                        <input type="text" value="От 0">
+
+        </header>
+        <main>
+            <form class="filters">
+                <div class="list">
+                    <span>Инфраструктура</span>
+                    <input type="checkbox" id="check1" checked>
+                    <label for="check1">Бассейн</label>
+                    <input type="checkbox" id="check2">
+                    <label for="check2">Парковка</label>
+                    <input type="checkbox" id="check3">
+                    <label for="check3">wi-fi</label>
+                </div>
+                <div class="list">
+                    <span>Тип жилья</span>
+                    <input type="checkbox" id="check4" checked>
+                    <label for="check1">Гостиница</label>
+                    <input type="checkbox" id="check5" checked>
+                    <label for="check2">Мотель</label>
+                    <input type="checkbox" id="check6" checked>
+                    <label for="check3">Апартаменты</label>
+                </div>
+                <div class="price-filter">
+                    <span>Стоимость в сутки (Р):</span>
+                    <div class="price-filter-range">
+                        <div class="price-filter-from">
+                            От
+                            <input type="text" value="0">
+                        </div>
+                        <div class="price-filter-to">
+                            До
+                            <input type="text" value="3000">
+                        </div>
                     </div>
-                    <div class="price-filter-to">
-                        <input type="text" value="До 3000">
+                    <div class="range">
+                        <div class="range-left"></div>
+                        <div class="range-right"></div>
                     </div>
                 </div>
-                <div class="range">
-                    <div class="range-left"></div>
-                    <div class="range-right"></div>
-                </div>
-            </div>
+            </form>
             <div class="sort">
                 <h2>Найдено: 3</h2>
                 <span>Сортировка:</span>
                 <ul>
                     <li>
-                        <button>По цене</button>
+                        <a href="#">По цене</a>
                     </li>
                     <li>
-                        <button>По типу</button>
+                        <a href="#">По типу</a>
                     </li>
                     <li>
-                        <button>По рейтингу</button>
+                        <a href="#">По рейтингу</a>
                     </li>
                 </ul>
                 <div class="arrow-up">
-                    <button></button>
+                    <a></a>
                 </div>
                 <div class="arrow-down">
-                    <button></button>
+                    <a></a>
                 </div>
             </div>
             <div class="variant">
@@ -123,16 +127,18 @@
                 </div>
                 <div class="rating">Рейтинг: 9,2</div>
             </div>
-        </div>
-    </main>
-    <footer class="container">
-        <a href="#"><h2>#visitsedona</h2></a>
-        <a class="social-btn social-btn-tw" href="#"></a>
-        <a class="social-btn social-btn-fb" href="#"></a>
-        <a class="social-btn social-btn-youtube" href="#"></a>
-        <span>WEBSITE by</span>
-        <a href="#"><img src="http://placehold.it/115x40" alt="html-academy">
-        </a>
-    </footer>
+
+        </main>
+        <footer>
+            <a href="#"><h2>#visitsedona</h2></a>
+            <a class="social-btn social-btn-tw" href="#"></a>
+            <a class="social-btn social-btn-fb" href="#"></a>
+            <a class="social-btn social-btn-youtube" href="#"></a>
+            <span>WEBSITE by</span>
+            <a href="#"><img src="http://placehold.it/115x40" alt="html-academy">
+            </a>
+        </footer>
+    </div>
 </body>
+
 </html>
