@@ -10,14 +10,13 @@ h2{
 	font-family: 'PTSans Bold', sans-serif;
 	font-size: 21px;
 	line-height: 26px;
-	color: #333333;
-	font-weight: normal;
+	}
+
+.top-menu a{
+	font-family: 'PTSans Bold', sans-serif;
 }
 
-p{
-	font-family: 'PTSans', sans-serif;
-	font-size: 14px;
-	line-height: 26px;
-	color: #333333;
-	font-weight: normal;
-}
+
+
+
+
