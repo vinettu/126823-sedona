@@ -16,6 +16,120 @@ h2{
 	font-family: 'PTSans Bold', sans-serif;
 }
 
+body{
+padding-top: 0 40px;
+}
+
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top-menu li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.clearfix::after {
+	content:"";
+	display:table;
+	clear: both;
+}
+
+.blue-reason{
+	float: left;
+	width: 400px;
+	padding: 30px 55px;
+	text-align: center;
+}
+
+.reason-first-img{
+	float: right;
+	width: 800px;
+}
+
+.feature{
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+
+.reason-second-img{
+	float: left;
+	width: 800px;
+}
+
+.blue-reason-right{
+	float: right;
+	width: 400px;
+	padding: 30px 55px;
+	text-align: center;
+}
+
+.reasons-grey{
+	float: left;
+	width: 370px; /*не очень понимаю, как правильно расчитать ширину, чтоб все поместилось*/
+	padding: 45px 65px;
+	text-align: center;
+}
+
+.list{
+	float: left;
+	width: 241px;
+}
+
+.price-filter{
+	float: right;
+	width: 328px;
+}
+
+.sort li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.arrows{
+	float: right;
+	width: 40px;
+}
+
+.variant{
+	padding: 30px 73px;
+}
+
+.variant img{
+	float: left;
+	margin-right: 30px;
+}
+
+.description{
+	float: left;
+}
+
+.value{
+	float: right;
+}
+
+.hashtag{
+	float: left;
+	width: 240px;
+	margin-left: 73px;
+
+}
+
+.socials{
+	float: left;
+	width: 400px;
+	margin-left: 88px;
+}
+
+.html-academy{
+	float: left;
+	width: 76px;
+	margin-left: 88px;
+	margin-right: 73px;
+}
 
 
 
