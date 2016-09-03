@@ -38,8 +38,8 @@ h2{
 
 
 .container{
-	min-width: 1200px;
-	margin: 0 6%;
+	width: 1200px;
+	margin: 0 auto;
 	background-color: #ffffff;
 
 }
@@ -209,6 +209,25 @@ p.main-header{
 
 .reasons-more{
 	background-color: #eeeeee;
+}
+
+.slider{
+	padding: 55px;
+}
+
+.check-in-date{
+	margin-bottom: 29px;
+}
+
+.check-out-date{
+	margin-bottom: 29px;
+}
+
+.slider label{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+
 }
 
 .list{
